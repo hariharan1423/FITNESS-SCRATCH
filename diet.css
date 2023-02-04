@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+.name{
+    display: flex;
+    color:black;
+    font-family: 'Moon Dance', cursive;
+    font-weight: 1000;
+    font-size: 40px;
+    padding-left: 70px;
+    padding-top: 20px;
+    align-items: center;
+    -webkit-box-shadow: 0px 7px 5px 0px rgba(255, 255, 255, 1);
+        -moz-box-shadow: 0px 7px 5px 0px rgba(255, 255, 255, 1);
+        box-shadow: 0px 7px 5px 0px rgba(255, 255, 255, 1);
+}
+.nav1{
+    display: flex;
+    list-style: none;
+    margin-left: 30%;
+    align-items: center;
+}
+
+.list a{
+    display:flex;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+    padding:40px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+.list a:hover{
+    color: grey;
+}
+.bmi{
+    display: flex;
+    color:black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 1000;
+    font-size: 40px;
+    margin-top:5px;
+    padding: 20px;
+    justify-content: center;
+}
+.calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.metric{
+    color:black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin: 30px;
+}
+input[type="text"]{
+    margin: 20px 0px 20px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    border:none;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    transition: opacity 2s;
+    -webkit-box-shadow: 0px 1px 11px 4px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 1px 11px 4px rgba(153,153,153,1);
+    box-shadow: 0px 1px 11px 4px rgba(153,153,153,1);
+}
+
+input:hover{
+    opacity: 0.5;
+}
+#btn{
+    margin-left:30%;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    transition: opacity 2s;
+    -webkit-box-shadow: 0px 1px 19px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 19px 5px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 19px 5px rgba(0,0,0,0.75);
+
+}
+#result{
+    display: flex;
+    margin: 20px 0px 0px 20px;
+    font-family: 'Work Sans', sans-serif;
+    color:black;
+    justify-content: center;
+}
+#diet-plan{
+    margin: 20px 0px 0px 20px;
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    color:black;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

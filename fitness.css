@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+.name{
+    display: flex;
+    color:black;
+    font-family: 'Moon Dance', cursive;
+    font-weight: 1000;
+    font-size: 40px;
+    padding-left: 70px;
+    padding-top: 20px;
+    align-items: center;
+    -webkit-box-shadow: 0px 7px 5px 0px rgba(255, 255, 255, 1);
+        -moz-box-shadow: 0px 7px 5px 0px rgba(255, 255, 255, 1);
+        box-shadow: 0px 7px 5px 0px rgba(255, 255, 255, 1);
+}
+.nav1{
+    display: flex;
+    list-style: none;
+    margin-left: 30%;
+    align-items: center;
+}
+
+.list a{
+    display:flex;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+    padding:40px;
+    justify-content:center;
+    align-items: center;
+    text-decoration: none;
+
+}
+.list a:hover{
+    color:gray;
+}
